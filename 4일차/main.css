@@ -1,0 +1,164 @@
+.header-container{
+    width: 100%;
+    height: 60px;
+}
+
+.header-box{
+    width: 99%;
+    height: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#top-menu ul li{
+    display: inline-block;
+}
+
+.list-style-left a{
+    text-decoration: none;
+    }
+
+.list-style-right a{
+    text-decoration: none;
+    }
+
+.list-style-left li{
+    a:link{color: black;}
+    a:visited{color: black;}
+    a:hover{text-decoration: underline;}
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.list-style-right li{
+    a:link{color: black;}
+    a:visited{color: black;}
+    a:hover{text-decoration: underline;}
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.left-menu{
+    margin-left: -35px;
+    float: left;
+}
+
+.right-menu{
+    margin-right: 10px;
+    float: right;
+}
+
+.main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.input-box{
+    width: 544px;
+    height: 46px;
+    border: #DFE1E5 solid 1px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px #DFE1E5;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.search-icon{
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+}
+
+.button-area{
+    padding-top: 18px;
+}
+
+.button-area button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+.button-area button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.language-service{
+    margin-top: 18px;
+}
+
+.language-service a{
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+.language-service a:hover{
+    text-decoration: underline;
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 0px;
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.location{
+    margin-left: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.bottom-menu{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.bottom-menu span{
+    a:visited{color: black;}
+    a:hover{text-decoration: underline;}
+    font-size: 15px;
+}
+
+.bottom-left{
+    float: left;
+}
+
+.bottom-left a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+}
+
+.bottom-right{
+    float: right;
+}
+
+.bottom-right a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54)
+}
