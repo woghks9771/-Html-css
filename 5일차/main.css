@@ -1,0 +1,106 @@
+.mother-box{
+    border: 1px solid red;
+    width: 40vW;
+    height: 30vW;
+}
+
+.flex{
+    display: flex;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.burlywood{
+    background-color: burlywood;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+}
+
+.bisque{
+    background-color: bisque;
+}
+
+.problem-1{
+    justify-content: space-between;
+}
+
+.problem-1-2box{
+    margin-right: 10px;
+}
+
+.problem-1-23box{
+    display: flex;
+}
+
+.problem-2{
+    flex-direction: column;    
+}
+
+.problem-2-2box{
+    align-self: center;
+}
+
+.problem-2-3box{
+    align-self: flex-end;
+}
+
+.box-2{
+    width: 150px;
+    height: 150px;
+}
+
+.box-3{
+    width: 300px;
+    height: 300px;
+}
+
+.problem-3{
+    justify-content: center;
+}
+
+.problem-4-2box{
+    left: 50px;
+    top: 50px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.problem-3-2box{
+    left:75px;
+    top:25px;
+}
+
+.box-4{
+    width: 500px;
+    height: 200px;
+}
+
+.problem-5-1box{
+    flex-direction: column-reverse;
+    align-self: flex-end;
+}
+
+.problem-5-2box{
+    left: 0;
+    bottom: 0;
+}
+
+.problem-5-3box{
+    right: 0;
+    top: 0;
+}
